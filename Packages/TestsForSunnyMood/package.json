@@ -1,0 +1,10 @@
+{
+  "name": "com.hyperskill.tests-for-sunnymood",
+  "version": "1.0.0",
+  "displayName": "SunnyMoodTests",
+  "description": "Tests for SunnyMood project",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "type": "tests",
+  "hideInEditor": true
+}
