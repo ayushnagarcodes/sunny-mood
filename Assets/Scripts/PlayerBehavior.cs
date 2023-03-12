@@ -60,7 +60,7 @@ public class PlayerBehavior : MonoBehaviour
         {
             if (canJump)
             {
-                rb.AddForce(new Vector2(0f, 1700f), ForceMode2D.Force);
+                rb.AddForce(new Vector2(0f, 2000f), ForceMode2D.Force);
                 animator.SetBool("JumpAnimate", true);
             }
         }
@@ -87,7 +87,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (col.gameObject.CompareTag("LevelEnd"))
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         
         if (col.gameObject.CompareTag("Gem"))
