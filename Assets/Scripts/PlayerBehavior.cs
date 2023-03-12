@@ -11,7 +11,7 @@ public class PlayerBehavior : MonoBehaviour
     private SpriteRenderer sr;
     private Animator animator;
     private float inputHorizontal;
-    private float moveSpeed = 500f;
+    private float moveSpeed = 400f;
     private Vector2 totalVelocity;
     private bool canJump = false;
     private bool facingRight = true;
@@ -60,7 +60,7 @@ public class PlayerBehavior : MonoBehaviour
         {
             if (canJump)
             {
-                rb.AddForce(new Vector2(0f, 800f));
+                rb.AddForce(new Vector2(0f, 1700f), ForceMode2D.Force);
                 animator.SetBool("JumpAnimate", true);
             }
         }
@@ -68,7 +68,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Ground"))
+        if (col.gameObject.CompareTag("Ground") || col.gameObject.CompareTag("Platform"))
         {
             canJump = true;
             animator.SetBool("JumpAnimate", false);
@@ -77,7 +77,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Ground"))
+        if (col.gameObject.CompareTag("Ground") || col.gameObject.CompareTag("Platform"))
         {
             canJump = false;
         }

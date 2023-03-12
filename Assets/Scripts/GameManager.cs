@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < 3; i++)
         {
-            Instantiate(gem, new Vector2(Random.Range(1.8f, 30f), -.25f), Quaternion.identity);
+            Instantiate(gem, new Vector2(Random.Range(-16.5f, 30f), -.25f), Quaternion.identity);
         }
     }
     
