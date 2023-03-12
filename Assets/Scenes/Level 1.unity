@@ -3666,6 +3666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1687645527}
+  - component: {fileID: 1687645529}
   - component: {fileID: 1687645528}
   m_Layer: 0
   m_Name: GameManager
@@ -3698,10 +3699,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687645526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64accab55f10ffa4ca1a748a09123fa8, type: 3}
+  m_Script: {fileID: 11500000, guid: 24809ae5e20bb8746b2211259ce4bf22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gem: {fileID: 7358783973975540369, guid: 9afea150c9aed41468a4b210d7b829cb, type: 3}
+--- !u!114 &1687645529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687645526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64accab55f10ffa4ca1a748a09123fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1842419474
 GameObject:
   m_ObjectHideFlags: 0
