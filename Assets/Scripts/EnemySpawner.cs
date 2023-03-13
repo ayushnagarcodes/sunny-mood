@@ -24,7 +24,7 @@ public class EnemySpawner : MonoBehaviour
             Bounds bound = platform.GetComponent<Collider2D>().bounds;
             if (bound.size.x > 4)
             {
-                location = new Vector2(bound.max.x - .5f, bound.max.y + .9f);
+                location = new Vector2(bound.max.x - 1f, bound.max.y + .9f);
                 spawnLocations = spawnLocations.Append(location).ToArray();
             }
         }

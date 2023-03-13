@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 67274
+  controlID: 36030
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,8 +48,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220
     y: 73.6
-    width: 944.4
-    height: 455.8
+    width: 946.80005
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -60,25 +60,25 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1920, y: 1080}
+  m_TargetSize: {x: 772, y: 482.8}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 02000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
+    m_HBaseRangeMin: -308.80002
+    m_HBaseRangeMax: 308.80002
+    m_VBaseRangeMin: -193.12
+    m_VBaseRangeMax: 193.12
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -96,23 +96,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 944.4
-      height: 434.8
-    m_Scale: {x: 0.5032407, y: 0.5032407}
-    m_Translation: {x: 472.2, y: 217.4}
+      width: 946.80005
+      height: 482.8
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 473.40002, y: 241.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -938.3184
-      y: -432.00003
-      width: 1876.6368
-      height: 864.00006
+      x: -473.40002
+      y: -241.4
+      width: 946.80005
+      height: 482.8
     m_MinimalGUI: 1
-  m_defaultScale: 0.5032407
-  m_LastWindowPixelSize: {x: 1180.5, y: 569.75}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1183.5, y: 629.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 67250
+  controlID: 36054
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,7 +202,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6cf2fdff42f4fdffce18feff1019feff5219feff8e19feffca19feff0c1afeff4e1afeff901afeffd21afeff2c1bfeff581bfeff841bfeffb41bfeffe41bfeff141cfeff481cfeff781cfeffa81cfeffd81cfeff081dfeff381dfeff681dfeff9a1dfeff601ffeff981ffeff9423feff9678feffce78fefff67cfeffd27efeff0a7ffeff5e85fefffe86feff908bfeff568dfeff068efeff3e8efeffd091feffda96feff2497feff209cfeff9ca0feff7cc8feffc6c8fefffaccfeff2adefeff74defeff4ae3feff96e3feffe0e3feff06e8feff2eeafeff78eafeff9eeefefff0f0feff3af1feff8cf5feff14fcfeff5efcfeff8400ffff3402ffff7e02ffffa406ffffa408ffffee08fffff40cffff8c18ffffd018ffffd81cffff101dffff541dffffce1effffbe1fffff0820ffff2e24ffff7a27ffffb227ffffa42bffff702effffba2effffe432ffffe034ffff1835ffff1639ffff363affff6e3affff283cffff7e3effffaa3effffe23effffe042ffffaa56ffffe256ffffe05affff2a5cffff7a5dffff2a66ffff6266ffff666affff42a3ffff20a6ffff60adffff6eaeffff90bbffffb6f3ffff0afbffff385c0000445c0000d47d0000da7d0000c6800000149900001a99000034c3000018ca000092d10000f8de0000deec0000c8f20000ca160100184c0100a88f010096a70100
+      m_ExpandedIDs: 3e4fffff704fffff4857ffff1a58ffff4c58ffff2460ffff5260ffff8460ffff5c68ffff8a68ffffbc68ffff9670ffffc670fffff870ffffcc74fffffca2fffffefaffff405500005c55000066550000ca550000dcb90100fcb901000cba010016ba010038ba010046ba010050ba010068ba010096ba0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -292,8 +292,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Prefabs
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -308,7 +307,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 16550000
     m_LastClickedID: 21782
-    m_ExpandedIDs: ffffffff0000000044550000485500004a5500004c550000885500008e550000aa550000de550000
+    m_ExpandedIDs: ffffffff000000002e59000030590000325900003459000036590000385900003a5900003c59000076590000a8620000106c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -333,10 +332,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 84.20001}
+    scrollPos: {x: 0, y: 60}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000044550000485500004a5500004c550000885500008e550000aa550000de550000
+    m_ExpandedIDs: ffffffff000000002e59000030590000325900003459000036590000385900003a5900003c59000076590000a8620000106c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -411,12 +410,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220
     y: 0
-    width: 946.4
+    width: 948.80005
     height: 722.8
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 67227
+  controlID: 36031
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,8 +433,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 946.4
-    height: 476.8
+    width: 948.80005
+    height: 524.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -467,8 +466,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220
     y: 73.6
-    width: 944.4
-    height: 455.8
+    width: 946.80005
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -500,7 +499,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -709,7 +708,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
@@ -725,9 +724,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.10988842, y: 2.1740084, z: -0.0747599}
+    m_Target: {x: 492.8748, y: 212.40327, z: -1.0125347}
     speed: 2
-    m_Value: {x: 0.10988842, y: 2.1740084, z: -0.0747599}
+    m_Value: {x: 485.45123, y: 218.6585, z: -1.1361923}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -761,7 +760,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.5001, y: 0.5001}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -778,9 +777,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.769733
+    m_Target: 262.42758
     speed: 2
-    m_Value: 10.769733
+    m_Value: 274.79327
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -827,8 +826,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220
     y: 73.6
-    width: 944.4
-    height: 455.8
+    width: 915.6
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -839,14 +838,14 @@ MonoBehaviour:
     - {fileID: 3318509842645664631, guid: 9e1b92b8d534e4d4a9612c77d8557ee1, type: 2}
     - {fileID: -4482421551714041915, guid: 9f6aafa981bc94948bbf6876ae1b3843, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.92482793
       e01: 0
       e02: 0
-      e03: 0
+      e03: 345.60687
       e10: 0
-      e11: 1
+      e11: 0.92482793
       e12: 0
-      e13: 0
+      e13: 216.38881
       e20: 0
       e21: 0
       e22: 1
@@ -888,9 +887,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 9f6aafa981bc94948bbf6876ae1b3843, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 65db33d4ecbed4942abb8898f8d1c04d, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -4482421551714041915, guid: 9f6aafa981bc94948bbf6876ae1b3843, type: 2}
+  - m_Target: {fileID: 9176491562658652275, guid: 65db33d4ecbed4942abb8898f8d1c04d, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -900,7 +899,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 0
+  m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &12
@@ -913,25 +912,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: CheckWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 476.8
-    width: 946.4
-    height: 246
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+    y: 524.8
+    width: 948.80005
+    height: 198
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 2
-  m_LastSelected: 3
+  m_Selected: 3
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -953,9 +952,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 550.4
-    width: 944.4
-    height: 225
+    y: 598.4
+    width: 946.80005
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -980,10 +979,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 542.4
-    width: 1165.4
-    height: 233
+    x: 220
+    y: 598.4
+    width: 944.4
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1009,16 +1008,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 550.4
+    y: 598.4
     width: 944.4
-    height: 225
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -137100
+  m_LastSelectedObjectID: 113296
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1040,9 +1039,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 550.4
-    width: 944.4
-    height: 225
+    y: 598.4
+    width: 946.80005
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1196,9 +1195,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1166.4
+    x: 1168.8
     y: 0
-    width: 369.59998
+    width: 367.19995
     height: 722.8
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -1229,9 +1228,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1166.4
+    x: 1168.8
     y: 73.6
-    width: 368.59998
+    width: 366.19995
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1305,16 +1304,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1166.4
+    x: 1168.8
     y: 73.6
-    width: 368.59998
+    width: 366.19995
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 8021
+    ID: 24668
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -1346,7 +1345,7 @@ MonoBehaviour:
       name: SunnyMood
       fullName: SunnyMood
       resultStatus: 2
-      duration: 7.9059787
+      duration: 12.991122
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1362,7 +1361,7 @@ MonoBehaviour:
       name: PlayMode.dll
       fullName: C:/AYUSH/Projects/Game Development/Sunny Mood/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 2
-      duration: 7.793536
+      duration: 12.78506
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1378,7 +1377,7 @@ MonoBehaviour:
       name: Stage1_Tests
       fullName: Stage1_Tests
       resultStatus: 1
-      duration: 0.1934185
+      duration: 0.1265469
       messages: 
       output: 
       stacktrace: 
@@ -1396,7 +1395,7 @@ MonoBehaviour:
       name: Check
       fullName: Stage1_Tests.Check
       resultStatus: 1
-      duration: 0.1299566
+      duration: 0.1059428
       messages: 
       output: 
       stacktrace: 
@@ -1413,7 +1412,7 @@ MonoBehaviour:
       name: Stage2_Tests
       fullName: Stage2_Tests
       resultStatus: 1
-      duration: 2.6880584
+      duration: 2.7214656
       messages: 
       output: 
       stacktrace: 
@@ -1431,7 +1430,7 @@ MonoBehaviour:
       name: CameraMovementCheck
       fullName: Stage2_Tests.CameraMovementCheck
       resultStatus: 1
-      duration: 0.7848813
+      duration: 0.7911334
       messages: 
       output: 
       stacktrace: 
@@ -1448,7 +1447,7 @@ MonoBehaviour:
       name: CheckBounds
       fullName: Stage2_Tests.CheckBounds
       resultStatus: 1
-      duration: 0.0135897
+      duration: 0.0140722
       messages: 
       output: 
       stacktrace: 
@@ -1465,7 +1464,7 @@ MonoBehaviour:
       name: CorrectMovement
       fullName: Stage2_Tests.CorrectMovement
       resultStatus: 1
-      duration: 0.1212242
+      duration: 0.1240237
       messages: 
       output: 
       stacktrace: 
@@ -1482,7 +1481,7 @@ MonoBehaviour:
       name: JumpCheck
       fullName: Stage2_Tests.JumpCheck
       resultStatus: 1
-      duration: 0.0854559
+      duration: 0.0901759
       messages: 
       output: 
       stacktrace: 
@@ -1499,7 +1498,7 @@ MonoBehaviour:
       name: JumpInAirCheck
       fullName: Stage2_Tests.JumpInAirCheck
       resultStatus: 1
-      duration: 1.2742463
+      duration: 1.2618583
       messages: 
       output: 
       stacktrace: 
@@ -1516,7 +1515,7 @@ MonoBehaviour:
       name: LevelEndCheck
       fullName: Stage2_Tests.LevelEndCheck
       resultStatus: 1
-      duration: 0.0735219
+      duration: 0.0785497
       messages: 
       output: 
       stacktrace: 
@@ -1533,7 +1532,7 @@ MonoBehaviour:
       name: MovementLeftCheck
       fullName: Stage2_Tests.MovementLeftCheck
       resultStatus: 1
-      duration: 0.0222094
+      duration: 0.0241361
       messages: 
       output: 
       stacktrace: 
@@ -1550,7 +1549,7 @@ MonoBehaviour:
       name: MovementRightCheck
       fullName: Stage2_Tests.MovementRightCheck
       resultStatus: 1
-      duration: 0.0142891
+      duration: 0.0156543
       messages: 
       output: 
       stacktrace: 
@@ -1567,7 +1566,7 @@ MonoBehaviour:
       name: NotMovingWithoutInputCheck
       fullName: Stage2_Tests.NotMovingWithoutInputCheck
       resultStatus: 1
-      duration: 0.2874445
+      duration: 0.3072071
       messages: 
       output: 
       stacktrace: 
@@ -1583,9 +1582,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage3_Tests][suite]
       name: Stage3_Tests
       fullName: Stage3_Tests
-      resultStatus: 2
-      duration: 0.3623066
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.3593447
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1601,15 +1600,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.CheckDestroying]
       name: CheckDestroying
       fullName: Stage3_Tests.CheckDestroying
-      resultStatus: 2
-      duration: 0.0051804
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0093479
+      messages: 
       output: 
-      stacktrace: "  at Stage3_Tests+<CheckDestroying>d__21.MoveNext () [0x0004d]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage3_Tests.cs:296
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1623,7 +1618,7 @@ MonoBehaviour:
       name: CheckTransitions
       fullName: Stage3_Tests.CheckTransitions
       resultStatus: 1
-      duration: 0.2246619
+      duration: 0.2264875
       messages: 
       output: 
       stacktrace: 
@@ -1639,17 +1634,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.CheckTransitionsIdle]
       name: CheckTransitionsIdle
       fullName: Stage3_Tests.CheckTransitionsIdle
-      resultStatus: 2
-      duration: 0.0211889
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0203181
+      messages: 
       output: 
-      stacktrace: "  at Stage3_Tests+<>c__DisplayClass20_0.<CheckTransitionsIdle>b__0
-        () [0x00000] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage3_Tests.cs:284
-        \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1663,7 +1652,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage3_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.050124
+      duration: 0.0459086
       messages: 
       output: 
       stacktrace: 
@@ -1679,18 +1668,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.NecessaryGemComponents]
       name: NecessaryGemComponents
       fullName: Stage3_Tests.NecessaryGemComponents
-      resultStatus: 2
-      duration: 0.050057
-      messages: ' Level 1: Gems were not added to a scene or their tag is misspelled'
+      resultStatus: 1
+      duration: 0.0428848
+      messages: 
       output: 
-      stacktrace: 'at Stage3_Tests+<NecessaryGemComponents>d__19.MoveNext () [0x000bd]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage3_Tests.cs:214
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1704,7 +1686,7 @@ MonoBehaviour:
       name: Stage4_1_Tests
       fullName: Stage4_1_Tests
       resultStatus: 1
-      duration: 0.0660578
+      duration: 0.0648794
       messages: 
       output: 
       stacktrace: 
@@ -1721,7 +1703,7 @@ MonoBehaviour:
       name: Check
       fullName: Stage4_1_Tests.Check
       resultStatus: 1
-      duration: 0.0635696
+      duration: 0.060047
       messages: 
       output: 
       stacktrace: 
@@ -1738,7 +1720,7 @@ MonoBehaviour:
       name: Stage4_2_Tests
       fullName: Stage4_2_Tests
       resultStatus: 1
-      duration: 2.656273
+      duration: 2.6827497
       messages: 
       output: 
       stacktrace: 
@@ -1755,7 +1737,7 @@ MonoBehaviour:
       name: CameraMovementCheck
       fullName: Stage4_2_Tests.CameraMovementCheck
       resultStatus: 1
-      duration: 0.7685565
+      duration: 0.7719848
       messages: 
       output: 
       stacktrace: 
@@ -1772,7 +1754,7 @@ MonoBehaviour:
       name: CheckBounds
       fullName: Stage4_2_Tests.CheckBounds
       resultStatus: 1
-      duration: 0.0102524
+      duration: 0.0127191
       messages: 
       output: 
       stacktrace: 
@@ -1789,7 +1771,7 @@ MonoBehaviour:
       name: CorrectMovement
       fullName: Stage4_2_Tests.CorrectMovement
       resultStatus: 1
-      duration: 0.1182672
+      duration: 0.1206405
       messages: 
       output: 
       stacktrace: 
@@ -1806,7 +1788,7 @@ MonoBehaviour:
       name: JumpCheck
       fullName: Stage4_2_Tests.JumpCheck
       resultStatus: 1
-      duration: 0.0914664
+      duration: 0.0940034
       messages: 
       output: 
       stacktrace: 
@@ -1823,7 +1805,7 @@ MonoBehaviour:
       name: JumpInAirCheck
       fullName: Stage4_2_Tests.JumpInAirCheck
       resultStatus: 1
-      duration: 1.2973688
+      duration: 1.3083816
       messages: 
       output: 
       stacktrace: 
@@ -1840,7 +1822,7 @@ MonoBehaviour:
       name: LevelEndCheck
       fullName: Stage4_2_Tests.LevelEndCheck
       resultStatus: 1
-      duration: 0.073914
+      duration: 0.078309
       messages: 
       output: 
       stacktrace: 
@@ -1857,7 +1839,7 @@ MonoBehaviour:
       name: MovementLeftCheck
       fullName: Stage4_2_Tests.MovementLeftCheck
       resultStatus: 1
-      duration: 0.0086772
+      duration: 0.0108496
       messages: 
       output: 
       stacktrace: 
@@ -1874,7 +1856,7 @@ MonoBehaviour:
       name: MovementRightCheck
       fullName: Stage4_2_Tests.MovementRightCheck
       resultStatus: 1
-      duration: 0.0119298
+      duration: 0.0138888
       messages: 
       output: 
       stacktrace: 
@@ -1891,7 +1873,7 @@ MonoBehaviour:
       name: NotMovingWithoutInputCheck
       fullName: Stage4_2_Tests.NotMovingWithoutInputCheck
       resultStatus: 1
-      duration: 0.2707506
+      duration: 0.2643368
       messages: 
       output: 
       stacktrace: 
@@ -1908,7 +1890,7 @@ MonoBehaviour:
       name: Stage4_3_Tests
       fullName: Stage4_3_Tests
       resultStatus: 1
-      duration: 0.8695564
+      duration: 0.8030155
       messages: 
       output: 
       stacktrace: 
@@ -1925,7 +1907,7 @@ MonoBehaviour:
       name: CheckDestroying
       fullName: Stage4_3_Tests.CheckDestroying
       resultStatus: 1
-      duration: 0.0076135
+      duration: 0.0097571
       messages: 
       output: 
       stacktrace: 
@@ -1942,7 +1924,7 @@ MonoBehaviour:
       name: CheckTransitions
       fullName: Stage4_3_Tests.CheckTransitions
       resultStatus: 1
-      duration: 0.7183634
+      duration: 0.6478886
       messages: 
       output: 
       stacktrace: 
@@ -1959,7 +1941,7 @@ MonoBehaviour:
       name: CheckTransitionsIdle
       fullName: Stage4_3_Tests.CheckTransitionsIdle
       resultStatus: 1
-      duration: 0.0162984
+      duration: 0.0208441
       messages: 
       output: 
       stacktrace: 
@@ -1976,7 +1958,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage4_3_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.0652249
+      duration: 0.0609377
       messages: 
       output: 
       stacktrace: 
@@ -1993,7 +1975,7 @@ MonoBehaviour:
       name: NecessaryGemComponents
       fullName: Stage4_3_Tests.NecessaryGemComponents
       resultStatus: 1
-      duration: 0.0496599
+      duration: 0.0495524
       messages: 
       output: 
       stacktrace: 
@@ -2010,7 +1992,7 @@ MonoBehaviour:
       name: Stage4_Tests
       fullName: Stage4_Tests
       resultStatus: 1
-      duration: 0.9491877
+      duration: 0.9749666
       messages: 
       output: 
       stacktrace: 
@@ -2028,7 +2010,7 @@ MonoBehaviour:
       name: CheckCollisions
       fullName: Stage4_Tests.CheckCollisions
       resultStatus: 1
-      duration: 0.7775599
+      duration: 0.7995358
       messages: 
       output: 
       stacktrace: 
@@ -2045,7 +2027,7 @@ MonoBehaviour:
       name: CorrectGemsNExit
       fullName: Stage4_Tests.CorrectGemsNExit
       resultStatus: 1
-      duration: 0.0077021
+      duration: 0.0106716
       messages: 
       output: 
       stacktrace: 
@@ -2062,7 +2044,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage4_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.0610706
+      duration: 0.0597681
       messages: 
       output: 
       stacktrace: 
@@ -2079,7 +2061,7 @@ MonoBehaviour:
       name: PlatformsReachableCheck
       fullName: Stage4_Tests.PlatformsReachableCheck
       resultStatus: 1
-      duration: 0.0995256
+      duration: 0.0993242
       messages: 
       output: 
       stacktrace: 
@@ -2095,9 +2077,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_1_Tests][suite]
       name: Stage5_1_Tests
       fullName: Stage5_1_Tests
-      resultStatus: 2
-      duration: 0.0115538
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0669363
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2112,18 +2094,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_1_Tests/[PlayMode][Stage5_1_Tests.Check]
       name: Check
       fullName: Stage5_1_Tests.Check
-      resultStatus: 2
-      duration: 0.0087738
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.0605278
+      messages: 
       output: 
-      stacktrace: 'at Stage5_1_Tests+<Check>d__10.MoveNext () [0x00067] in C:\AYUSH\Projects\Game
-        Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_1_Tests.cs:31
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2136,9 +2111,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_2_Tests][suite]
       name: Stage5_2_Tests
       fullName: Stage5_2_Tests
-      resultStatus: 2
-      duration: 0.0728172
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 2.6692817
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2153,17 +2128,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.CameraMovementCheck]
       name: CameraMovementCheck
       fullName: Stage5_2_Tests.CameraMovementCheck
-      resultStatus: 2
-      duration: 0.0091769
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.7723551
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<>c__DisplayClass20_0.<CameraMovementCheck>b__0
-        () [0x00000] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:374
-        \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2176,15 +2145,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.CheckBounds]
       name: CheckBounds
       fullName: Stage5_2_Tests.CheckBounds
-      resultStatus: 2
-      duration: 0.0113414
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0122309
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<CheckBounds>d__19.MoveNext () [0x0017f] in
-        C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:300
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2197,17 +2162,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.CorrectMovement]
       name: CorrectMovement
       fullName: Stage5_2_Tests.CorrectMovement
-      resultStatus: 2
-      duration: 0.0053296
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.1201475
+      messages: 
       output: 
-      stacktrace: "  at PMHelper.Exist[T] (UnityEngine.GameObject g) [0x00000] in
-        C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.hyperskill.hs-test-unity@f061abb04c\\Runtime\\PMHelper.cs:18
-        \r\n  at Stage5_2_Tests+<CorrectMovement>d__16.MoveNext () [0x0004d] in C:\\AYUSH\\Projects\\Game
-        Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:146
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2220,17 +2179,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.JumpCheck]
       name: JumpCheck
       fullName: Stage5_2_Tests.JumpCheck
-      resultStatus: 2
-      duration: 0.0089841
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0943258
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<>c__DisplayClass17_0.<JumpCheck>b__0 () [0x00000]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:185
-        \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2243,17 +2196,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.JumpInAirCheck]
       name: JumpInAirCheck
       fullName: Stage5_2_Tests.JumpInAirCheck
-      resultStatus: 2
-      duration: 0.0097726
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 1.2994092
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<>c__DisplayClass18_0.<JumpInAirCheck>b__0
-        () [0x00000] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:227
-        \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2266,15 +2213,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.LevelEndCheck]
       name: LevelEndCheck
       fullName: Stage5_2_Tests.LevelEndCheck
-      resultStatus: 2
-      duration: 0.0061728
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.068421
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<LevelEndCheck>d__21.MoveNext () [0x0002c]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:408
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2287,15 +2230,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.MovementLeftCheck]
       name: MovementLeftCheck
       fullName: Stage5_2_Tests.MovementLeftCheck
-      resultStatus: 2
-      duration: 0.0065095
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0115564
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<MovementLeftCheck>d__14.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:96
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2308,15 +2247,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.MovementRightCheck]
       name: MovementRightCheck
       fullName: Stage5_2_Tests.MovementRightCheck
-      resultStatus: 2
-      duration: 0.0052406
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0134853
+      messages: 
       output: 
-      stacktrace: "  at Stage5_2_Tests+<MovementRightCheck>d__15.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_2_Tests.cs:121
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2329,18 +2264,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.NotMovingWithoutInputCheck]
       name: NotMovingWithoutInputCheck
       fullName: Stage5_2_Tests.NotMovingWithoutInputCheck
-      resultStatus: 2
-      duration: 0.0053842
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.2693313
+      messages: 
       output: 
-      stacktrace: 'at Stage5_2_Tests+<NotMovingWithoutInputCheck>d__13.MoveNext ()
-        [0x00067] in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_2_Tests.cs:26
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2353,9 +2281,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_3_Tests][suite]
       name: Stage5_3_Tests
       fullName: Stage5_3_Tests
-      resultStatus: 2
-      duration: 0.0333798
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.8780927
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2370,15 +2298,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.CheckDestroying]
       name: CheckDestroying
       fullName: Stage5_3_Tests.CheckDestroying
-      resultStatus: 2
-      duration: 0.0049496
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0105298
+      messages: 
       output: 
-      stacktrace: "  at Stage5_3_Tests+<CheckDestroying>d__21.MoveNext () [0x0004d]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_3_Tests.cs:329
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2391,15 +2315,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.CheckTransitions]
       name: CheckTransitions
       fullName: Stage5_3_Tests.CheckTransitions
-      resultStatus: 2
-      duration: 0.0054444
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.7205908
+      messages: 
       output: 
-      stacktrace: "  at Stage5_3_Tests+<CheckTransitions>d__18.MoveNext () [0x0006b]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_3_Tests.cs:110
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2412,17 +2332,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.CheckTransitionsIdle]
       name: CheckTransitionsIdle
       fullName: Stage5_3_Tests.CheckTransitionsIdle
-      resultStatus: 2
-      duration: 0.007104
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.0187664
+      messages: 
       output: 
-      stacktrace: "  at Stage5_3_Tests+<>c__DisplayClass20_0.<CheckTransitionsIdle>b__0
-        () [0x00000] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_3_Tests.cs:317
-        \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2435,18 +2349,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage5_3_Tests.NecessaryComponents
-      resultStatus: 2
-      duration: 0.0064299
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.0672081
+      messages: 
       output: 
-      stacktrace: 'at Stage5_3_Tests+<NecessaryComponents>d__17.MoveNext () [0x0004a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_3_Tests.cs:26
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2459,18 +2366,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.NecessaryGemComponents]
       name: NecessaryGemComponents
       fullName: Stage5_3_Tests.NecessaryGemComponents
-      resultStatus: 2
-      duration: 0.0056355
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.0476663
+      messages: 
       output: 
-      stacktrace: 'at Stage5_3_Tests+<NecessaryGemComponents>d__19.MoveNext () [0x00036]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_3_Tests.cs:226
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2483,9 +2383,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_4_Tests][suite]
       name: Stage5_4_Tests
       fullName: Stage5_4_Tests
-      resultStatus: 2
-      duration: 0.0319482
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.9697567
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2500,15 +2400,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.CheckCollisions]
       name: CheckCollisions
       fullName: Stage5_4_Tests.CheckCollisions
-      resultStatus: 2
-      duration: 0.0056199
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 0.7862817
+      messages: 
       output: 
-      stacktrace: "  at Stage5_4_Tests+<CheckCollisions>d__8.MoveNext () [0x00048]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_4_Tests.cs:162
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2521,18 +2417,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.CorrectGemsNExit]
       name: CorrectGemsNExit
       fullName: Stage5_4_Tests.CorrectGemsNExit
-      resultStatus: 2
-      duration: 0.0112181
-      messages: 'Level 3: It should not be hard or impossible to collect gems'
+      resultStatus: 1
+      duration: 0.010286
+      messages: 
       output: 
-      stacktrace: 'at Stage5_4_Tests+<CorrectGemsNExit>d__10.MoveNext () [0x00095]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_4_Tests.cs:363
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2545,18 +2434,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage5_4_Tests.NecessaryComponents
-      resultStatus: 2
-      duration: 0.0062317
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.0658166
+      messages: 
       output: 
-      stacktrace: 'at Stage5_4_Tests+<NecessaryComponents>d__7.MoveNext () [0x00071]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_4_Tests.cs:32
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2569,18 +2451,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.PlatformsReachableCheck]
       name: PlatformsReachableCheck
       fullName: Stage5_4_Tests.PlatformsReachableCheck
-      resultStatus: 2
-      duration: 0.0056373
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.1004219
+      messages: 
       output: 
-      stacktrace: 'at Stage5_4_Tests+<PlatformsReachableCheck>d__9.MoveNext () [0x00055]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_4_Tests.cs:274
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2593,9 +2468,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_Tests][suite]
       name: Stage5_Tests
       fullName: Stage5_Tests
-      resultStatus: 2
-      duration: 0.0190805
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.1805038
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2611,18 +2486,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_Tests/[PlayMode][Stage5_Tests.CheckScene]
       name: CheckScene
       fullName: Stage5_Tests.CheckScene
-      resultStatus: 2
-      duration: 0.0053779
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.0483284
+      messages: 
       output: 
-      stacktrace: 'at Stage5_Tests+<CheckScene>d__5.MoveNext () [0x00040] in C:\AYUSH\Projects\Game
-        Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_Tests.cs:26
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2635,18 +2503,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_Tests/[PlayMode][Stage5_Tests.CollisionCheck]
       name: CollisionCheck
       fullName: Stage5_Tests.CollisionCheck
-      resultStatus: 2
-      duration: 0.0050977
-      messages: '"Level 3" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.1027293
+      messages: 
       output: 
-      stacktrace: 'at Stage5_Tests+<CollisionCheck>d__7.MoveNext () [0x00040] in
-        C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage5_Tests.cs:181
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2659,16 +2520,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_Tests/[PlayMode][Stage5_Tests.CorrectPlacementAndMovement]
       name: CorrectPlacementAndMovement
       fullName: Stage5_Tests.CorrectPlacementAndMovement
-      resultStatus: 2
-      duration: 0.0055108
-      messages: 'UnityEngine.UnityException : Tag: Enemy is not defined.'
+      resultStatus: 1
+      duration: 0.0235148
+      messages: 
       output: 
-      stacktrace: "  at (wrapper managed-to-native) UnityEngine.GameObject.FindGameObjectWithTag(string)\r\n 
-        at UnityEngine.GameObject.FindWithTag (System.String tag) [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
-        \r\n  at Stage5_Tests+<CorrectPlacementAndMovement>d__6.MoveNext () [0x00084]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage5_Tests.cs:129
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2681,9 +2537,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage6_Tests][suite]
       name: Stage6_Tests
       fullName: Stage6_Tests
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.2722869
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2698,11 +2554,19 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage6_Tests/[PlayMode][Stage6_Tests.ChooseLevelNecessary]
       name: ChooseLevelNecessary
       fullName: Stage6_Tests.ChooseLevelNecessary
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.082287
+      messages: Anchors of "ChooseLevel"'s <RectTransform> component are incorrect
+        or it's offsets are not equal to zero, might be troubles with different resolutions
       output: 
-      stacktrace: 
+      stacktrace: 'at Stage6_Tests+<ChooseLevelNecessary>d__17.MoveNext () [0x001d1]
+        in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage6_Tests.cs:74
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2715,11 +2579,15 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage6_Tests/[PlayMode][Stage6_Tests.PlayTest]
       name: PlayTest
       fullName: Stage6_Tests.PlayTest
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.0113479
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
       output: 
-      stacktrace: 
+      stacktrace: "  at Stage6_Tests+<PlayTest>d__18.MoveNext () [0x00077] in C:\\AYUSH\\Projects\\Game
+        Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage6_Tests.cs:165
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2732,8 +2600,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage6_Tests/[PlayMode][Stage6_Tests.SetUp]
       name: SetUp
       fullName: Stage6_Tests.SetUp
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1655723
       messages: 
       output: 
       stacktrace: 
@@ -2779,13 +2647,13 @@ MonoBehaviour:
       - 7
       parentId: 1074
       parentUniqueId: PlayMode.dll/[PlayMode][Stage7_Tests][suite]
-    m_ResultText: CorrectGemsNExit (0.008s)
+    m_ResultText: CorrectGemsNExit (0.011s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 186}
       m_SelectedIDs: e8375f98
       m_LastClickedID: -1738590232
-      m_ExpandedIDs: e67c93a55a96b5b34bbfd8b946b0d2cb64d31de4f1cf24ee692231172155ea34cf80706affffff7f
+      m_ExpandedIDs: e67c93a55a96b5b34bbfd8b946b0d2cb64d31de4f1cf24ee69223117553c4e2f2155ea34cf80706affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

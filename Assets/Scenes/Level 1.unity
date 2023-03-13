@@ -2917,6 +2917,7 @@ GameObject:
   - component: {fileID: 262723399}
   - component: {fileID: 262723398}
   - component: {fileID: 262723400}
+  - component: {fileID: 262723401}
   m_Layer: 0
   m_Name: LevelEnd
   m_TagString: LevelEnd
@@ -3024,6 +3025,18 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &262723401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262723397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7606db64bf4ee995e34e4dc2cd8c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &443998300
 GameObject:
   m_ObjectHideFlags: 0
@@ -3040,7 +3053,7 @@ GameObject:
   - component: {fileID: 443998306}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3715,6 +3728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64accab55f10ffa4ca1a748a09123fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentLevel: 0
 --- !u!1 &1842419474
 GameObject:
   m_ObjectHideFlags: 0

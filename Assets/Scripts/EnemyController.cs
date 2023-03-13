@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Vector2 pos;
-    private float moveSpeed = -200f;
+    private float moveSpeed = -150f;
     private Bounds platform;
 
     void Start()
@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
         pos = transform.position;
-        if (pos.x < (platform.max.x - platform.size.x + .5f) || pos.x > platform.max.x - .5f)
+        if (pos.x < (platform.max.x - platform.size.x + 1f) || pos.x > platform.max.x - 1f)
         {
             moveSpeed *= -1;
             sr.flipX = !sr.flipX;

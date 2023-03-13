@@ -86,11 +86,6 @@ public class PlayerBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("LevelEnd"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        
         if (col.gameObject.CompareTag("Gem"))
         {
             Destroy(col.gameObject);
