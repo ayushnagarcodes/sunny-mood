@@ -60,7 +60,8 @@ public class PlayerBehavior : MonoBehaviour
         {
             if (canJump)
             {
-                rb.AddForce(new Vector2(0f, 2000f), ForceMode2D.Force);
+                // Adding additional force on x-axis if player is moving and then jump key is pressed
+                rb.AddForce(new Vector2(2000f * inputHorizontal, 2000f), ForceMode2D.Force);
                 animator.SetBool("JumpAnimate", true);
             }
         }
@@ -93,6 +94,11 @@ public class PlayerBehavior : MonoBehaviour
         if (col.gameObject.CompareTag("Gem"))
         {
             Destroy(col.gameObject);
+        }
+
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

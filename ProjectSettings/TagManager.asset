@@ -9,6 +9,7 @@ TagManager:
   - LevelEnd
   - Gem
   - Platform
+  - Enemy
   layers:
   - Default
   - TransparentFX

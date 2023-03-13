@@ -20,6 +20,7 @@ public class GemSpawner : MonoBehaviour
         levelEnd = GameObject.FindGameObjectWithTag("LevelEnd").GetComponent<Collider2D>();
         platforms = GameObject.FindGameObjectsWithTag("Platform");
         
+        // Instantiating gems
         for (int i = 0; i < 3; i++)
         {
             Instantiate(gem, GeneratePosition(), Quaternion.identity);
@@ -28,13 +29,13 @@ public class GemSpawner : MonoBehaviour
 
     Vector2 GeneratePosition()
     {
-        Vector2[] gemSpawnLocations = {};
+        Vector2[] spawnLocations = {};
 
         // adding Ground (before LevelEnd) as spawn location
         groundLocation = new Vector2(
             Random.Range(ground.bounds.max.x - ground.bounds.size.x + 1.5f, levelEnd.bounds.min.x - 1.5f),
             ground.bounds.max.y + .8f);
-        gemSpawnLocations = gemSpawnLocations.Append(groundLocation).ToArray();
+        spawnLocations = spawnLocations.Append(groundLocation).ToArray();
 
         // adding platforms as spawn locations
         // returning Ground location if there are no platforms
@@ -48,9 +49,9 @@ public class GemSpawner : MonoBehaviour
             Bounds bound = platform.GetComponent<Collider2D>().bounds;
             platformLocation = new Vector2(Random.Range(bound.max.x - bound.size.x + .4f, bound.max.x - .4f)
                 , bound.max.y + .8f);
-            gemSpawnLocations = gemSpawnLocations.Append(platformLocation).ToArray();
+            spawnLocations = spawnLocations.Append(platformLocation).ToArray();
         }
         
-        return gemSpawnLocations[Random.Range(0, gemSpawnLocations.Length)];
+        return spawnLocations[Random.Range(0, spawnLocations.Length)];
     }
 }

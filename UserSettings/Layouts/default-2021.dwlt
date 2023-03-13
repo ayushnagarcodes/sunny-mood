@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: CheckWindow
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -73,7 +73,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Ayush's workspace 2
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2957
+  controlID: 143
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2821
+  controlID: 120
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,12 +164,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 220
-    height: 339.2
+    height: 388
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &8
@@ -188,14 +188,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 339.2
+    y: 388
     width: 220
-    height: 383.59998
+    height: 334.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2962
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -241,16 +241,16 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 946.4
-    height: 468.8
+    height: 524.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 14}
+  - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,25 +261,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: CheckWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 468.8
+    y: 524.8
     width: 946.4
-    height: 254
+    height: 198
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 0
-  m_LastSelected: 3
+  m_Selected: 3
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,79 +299,16 @@ MonoBehaviour:
     y: 0
     width: 369.59998
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
   - {fileID: 23}
+  - {fileID: 24}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 220
-    y: 73.6
-    width: 944.4
-    height: 447.8
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 9176491562658652275, guid: 65db33d4ecbed4942abb8898f8d1c04d, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.95752066
-      e01: 0
-      e02: 0
-      e03: 136.51994
-      e10: 0
-      e11: 0.95752066
-      e12: 0
-      e13: 85.349365
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 65db33d4ecbed4942abb8898f8d1c04d, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 9176491562658652275, guid: 65db33d4ecbed4942abb8898f8d1c04d, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,7 +331,7 @@ MonoBehaviour:
     x: 220
     y: 73.6
     width: 944.4
-    height: 447.8
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -432,7 +369,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -442,28 +379,28 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 944.4
-      height: 426.8
-    m_Scale: {x: 0.49398148, y: 0.49398148}
-    m_Translation: {x: 472.2, y: 213.4}
+      height: 482.8
+    m_Scale: {x: 0.5587963, y: 0.5587963}
+    m_Translation: {x: 472.2, y: 241.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -955.9063
+      x: -845.0307
       y: -432
-      width: 1911.8126
+      width: 1690.0614
       height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.49398148
-  m_LastWindowPixelSize: {x: 1180.5, y: 559.75}
+  m_defaultScale: 0.5587963
+  m_LastWindowPixelSize: {x: 1180.5, y: 629.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,7 +423,7 @@ MonoBehaviour:
     x: 0
     y: 73.6
     width: 219
-    height: 318.2
+    height: 367
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -496,21 +433,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94e8feffcce8feffbaebfeffe4ebfeff1cecfeff72eefeffe2f0feff1af1feff70f3feff9c3cffffd43cffff2e3fffff38d9ffff0afbffff
+      m_ExpandedIDs: 429cfeff8c9cfeffaca4feffeaa4feff34a5feffeca9feffacaafefff0aafeffaeb2fefff8b3feff3cb4fefffabbfeffeabcfeff2ebdfeff18c5feffe2c7feff26c8feffe4cffefff0d0feff34d1fefff2d8feff68defeffacdefeff6ae6feff4ce7feff90e7feff7aeffeffc8effeff12f0feffb6f7feff24f8feff6ef8feff56fdfeff0afbffff66540000d8540000285500008855000036e20100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Wall L
-        m_OriginalName: Wall L
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 41504
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -520,7 +457,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -541,9 +478,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 412.80002
+    y: 461.6
     width: 219
-    height: 362.59998
+    height: 313.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -575,7 +512,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 16550000
     m_LastClickedID: 21782
-    m_ExpandedIDs: ffffffff000000000c5500000e5500001655000030550000345600006c560000
+    m_ExpandedIDs: 00000000d4580000d6580000d8580000da580000dc580000de580000e0580000e2580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,21 +540,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000000c550000185500001c55000020550000bc760000
+    m_ExpandedIDs: ffffffff00000000d4580000d6580000da580000dc580000e0580000e2580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Enemy
+      m_OriginalName: Enemy
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 22050
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -659,7 +596,7 @@ MonoBehaviour:
     m_GridSize: 71
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 149
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -682,7 +619,7 @@ MonoBehaviour:
     x: 220
     y: 73.6
     width: 944.4
-    height: 447.8
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -922,8 +859,8 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
+      displayed: 1
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
@@ -939,9 +876,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6148374, y: 0.9564993, z: -0.14021367}
+    m_Target: {x: -0.5189718, y: 1.9158994, z: 19.981441}
     speed: 2
-    m_Value: {x: -1.6148374, y: 0.9564993, z: -0.14021367}
+    m_Value: {x: -0.5189718, y: 1.9158994, z: 19.981441}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -975,16 +912,16 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.5001, y: 0.5001}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.5001, y: 0.5001}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -992,9 +929,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.509199
+    m_Target: 10.787401
     speed: 2
-    m_Value: 10.509199
+    m_Value: 10.787401
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1012,13 +949,111 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.034928735, y: 0.09937382, z: -0.0034952671, w: -0.9944583}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 220
+    y: 73.6
+    width: 944.4
+    height: 455.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 9176491562658652275, guid: 65db33d4ecbed4942abb8898f8d1c04d, type: 2}
+    - {fileID: 3318509842645664631, guid: 9e1b92b8d534e4d4a9612c77d8557ee1, type: 2}
+    - {fileID: -4482421551714041915, guid: 9f6aafa981bc94948bbf6876ae1b3843, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 9f6aafa981bc94948bbf6876ae1b3843, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -4482421551714041915, guid: 9f6aafa981bc94948bbf6876ae1b3843, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1040,9 +1075,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 542.4
+    y: 598.4
     width: 944.4
-    height: 233
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1068,9 +1103,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 542.4
+    y: 598.4
     width: 944.4
-    height: 233
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1096,16 +1131,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 542.4
+    y: 598.4
     width: 944.4
-    height: 233
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 41462
+  m_LastSelectedObjectID: 147562
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1127,9 +1162,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 220
-    y: 542.4
+    y: 598.4
     width: 944.4
-    height: 233
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1303,13 +1338,48 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 69.60004
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tile Palette
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1166.4
+    y: 73.6
+    width: 368.59998
+    height: 701.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_PreviewResizer:
+    m_CachedPref: -50
+    m_ControlHash: 1964396721
+    m_PrefName: Preview_TilemapBrushInspector
+  m_Palette: {fileID: 892469945391060497, guid: c0ff5f85b16427f46a7321eb3d16ef53, type: 3}
+  m_DrawGridGizmo: 1
+  m_DrawGizmos: 0
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1338,7 +1408,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 19157
+    ID: 32347
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -1363,15 +1433,15 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 23}
+    m_Window: {fileID: 24}
     m_NewResultList:
     - id: 1000
       uniqueId: '[SunnyMood][suite]'
       name: SunnyMood
       fullName: SunnyMood
-      resultStatus: 2
-      duration: 0.2159584
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 12.902235
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1385,9 +1455,9 @@ MonoBehaviour:
       uniqueId: '[PlayMode][C:/AYUSH/Projects/Game Development/Sunny Mood/Library/ScriptAssemblies/PlayMode.dll][suite]'
       name: PlayMode.dll
       fullName: C:/AYUSH/Projects/Game Development/Sunny Mood/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 2
-      duration: 0.0424193
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 12.700063
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1401,9 +1471,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage1_Tests][suite]
       name: Stage1_Tests
       fullName: Stage1_Tests
-      resultStatus: 2
-      duration: 0.0357522
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.1754351
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1419,18 +1489,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage1_Tests/[PlayMode][Stage1_Tests.Check]
       name: Check
       fullName: Stage1_Tests.Check
-      resultStatus: 2
-      duration: 0.020188
-      messages: '"Level 1" scene is misspelled or was not added to build settings'
+      resultStatus: 1
+      duration: 0.1291556
+      messages: 
       output: 
-      stacktrace: 'at Stage1_Tests+<Check>d__10.MoveNext () [0x00067] in C:\AYUSH\Projects\Game
-        Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage1_Tests.cs:31
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1443,14 +1506,14 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage2_Tests][suite]
       name: Stage2_Tests
       fullName: Stage2_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.7513719
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
-      description: I did not plan to make the Cube
+      description: The glorious lamp of heaven, the Sun.
       isSuite: 1
       categories:
       - 2
@@ -1461,8 +1524,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.CameraMovementCheck]
       name: CameraMovementCheck
       fullName: Stage2_Tests.CameraMovementCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7899253
       messages: 
       output: 
       stacktrace: 
@@ -1478,8 +1541,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.CheckBounds]
       name: CheckBounds
       fullName: Stage2_Tests.CheckBounds
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.014609
       messages: 
       output: 
       stacktrace: 
@@ -1495,8 +1558,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.CorrectMovement]
       name: CorrectMovement
       fullName: Stage2_Tests.CorrectMovement
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1273793
       messages: 
       output: 
       stacktrace: 
@@ -1512,8 +1575,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.JumpCheck]
       name: JumpCheck
       fullName: Stage2_Tests.JumpCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0909777
       messages: 
       output: 
       stacktrace: 
@@ -1529,8 +1592,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.JumpInAirCheck]
       name: JumpInAirCheck
       fullName: Stage2_Tests.JumpInAirCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2726756
       messages: 
       output: 
       stacktrace: 
@@ -1546,8 +1609,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.LevelEndCheck]
       name: LevelEndCheck
       fullName: Stage2_Tests.LevelEndCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0740696
       messages: 
       output: 
       stacktrace: 
@@ -1563,8 +1626,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.MovementLeftCheck]
       name: MovementLeftCheck
       fullName: Stage2_Tests.MovementLeftCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0334204
       messages: 
       output: 
       stacktrace: 
@@ -1580,8 +1643,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.MovementRightCheck]
       name: MovementRightCheck
       fullName: Stage2_Tests.MovementRightCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0204065
       messages: 
       output: 
       stacktrace: 
@@ -1597,8 +1660,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage2_Tests/[PlayMode][Stage2_Tests.NotMovingWithoutInputCheck]
       name: NotMovingWithoutInputCheck
       fullName: Stage2_Tests.NotMovingWithoutInputCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3123895
       messages: 
       output: 
       stacktrace: 
@@ -1614,14 +1677,14 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage3_Tests][suite]
       name: Stage3_Tests
       fullName: Stage3_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3622
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
-      description: Want a sugar cube?
+      description: The Sun shines upon good and bad alike.
       isSuite: 1
       categories:
       - 3
@@ -1632,8 +1695,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.CheckDestroying]
       name: CheckDestroying
       fullName: Stage3_Tests.CheckDestroying
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0104431
       messages: 
       output: 
       stacktrace: 
@@ -1649,8 +1712,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.CheckTransitions]
       name: CheckTransitions
       fullName: Stage3_Tests.CheckTransitions
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2254008
       messages: 
       output: 
       stacktrace: 
@@ -1666,8 +1729,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.CheckTransitionsIdle]
       name: CheckTransitionsIdle
       fullName: Stage3_Tests.CheckTransitionsIdle
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0179036
       messages: 
       output: 
       stacktrace: 
@@ -1683,8 +1746,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage3_Tests.NecessaryComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0461514
       messages: 
       output: 
       stacktrace: 
@@ -1700,8 +1763,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage3_Tests/[PlayMode][Stage3_Tests.NecessaryGemComponents]
       name: NecessaryGemComponents
       fullName: Stage3_Tests.NecessaryGemComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0484251
       messages: 
       output: 
       stacktrace: 
@@ -1717,8 +1780,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage4_1_Tests][suite]
       name: Stage4_1_Tests
       fullName: Stage4_1_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0714276
       messages: 
       output: 
       stacktrace: 
@@ -1734,8 +1797,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_1_Tests/[PlayMode][Stage4_1_Tests.Check]
       name: Check
       fullName: Stage4_1_Tests.Check
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0661107
       messages: 
       output: 
       stacktrace: 
@@ -1751,8 +1814,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage4_2_Tests][suite]
       name: Stage4_2_Tests
       fullName: Stage4_2_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.702174
       messages: 
       output: 
       stacktrace: 
@@ -1768,8 +1831,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.CameraMovementCheck]
       name: CameraMovementCheck
       fullName: Stage4_2_Tests.CameraMovementCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7714389
       messages: 
       output: 
       stacktrace: 
@@ -1785,8 +1848,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.CheckBounds]
       name: CheckBounds
       fullName: Stage4_2_Tests.CheckBounds
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0139513
       messages: 
       output: 
       stacktrace: 
@@ -1802,8 +1865,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.CorrectMovement]
       name: CorrectMovement
       fullName: Stage4_2_Tests.CorrectMovement
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.121025
       messages: 
       output: 
       stacktrace: 
@@ -1819,8 +1882,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.JumpCheck]
       name: JumpCheck
       fullName: Stage4_2_Tests.JumpCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0959046
       messages: 
       output: 
       stacktrace: 
@@ -1836,8 +1899,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.JumpInAirCheck]
       name: JumpInAirCheck
       fullName: Stage4_2_Tests.JumpInAirCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3167644
       messages: 
       output: 
       stacktrace: 
@@ -1853,8 +1916,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.LevelEndCheck]
       name: LevelEndCheck
       fullName: Stage4_2_Tests.LevelEndCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.07707
       messages: 
       output: 
       stacktrace: 
@@ -1870,8 +1933,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.MovementLeftCheck]
       name: MovementLeftCheck
       fullName: Stage4_2_Tests.MovementLeftCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0113827
       messages: 
       output: 
       stacktrace: 
@@ -1887,8 +1950,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.MovementRightCheck]
       name: MovementRightCheck
       fullName: Stage4_2_Tests.MovementRightCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0133813
       messages: 
       output: 
       stacktrace: 
@@ -1904,8 +1967,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_2_Tests/[PlayMode][Stage4_2_Tests.NotMovingWithoutInputCheck]
       name: NotMovingWithoutInputCheck
       fullName: Stage4_2_Tests.NotMovingWithoutInputCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2722754
       messages: 
       output: 
       stacktrace: 
@@ -1921,8 +1984,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage4_3_Tests][suite]
       name: Stage4_3_Tests
       fullName: Stage4_3_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.8868467
       messages: 
       output: 
       stacktrace: 
@@ -1938,8 +2001,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_3_Tests/[PlayMode][Stage4_3_Tests.CheckDestroying]
       name: CheckDestroying
       fullName: Stage4_3_Tests.CheckDestroying
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0107065
       messages: 
       output: 
       stacktrace: 
@@ -1955,8 +2018,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_3_Tests/[PlayMode][Stage4_3_Tests.CheckTransitions]
       name: CheckTransitions
       fullName: Stage4_3_Tests.CheckTransitions
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7268195
       messages: 
       output: 
       stacktrace: 
@@ -1972,8 +2035,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_3_Tests/[PlayMode][Stage4_3_Tests.CheckTransitionsIdle]
       name: CheckTransitionsIdle
       fullName: Stage4_3_Tests.CheckTransitionsIdle
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0188643
       messages: 
       output: 
       stacktrace: 
@@ -1989,8 +2052,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_3_Tests/[PlayMode][Stage4_3_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage4_3_Tests.NecessaryComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0645634
       messages: 
       output: 
       stacktrace: 
@@ -2006,8 +2069,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_3_Tests/[PlayMode][Stage4_3_Tests.NecessaryGemComponents]
       name: NecessaryGemComponents
       fullName: Stage4_3_Tests.NecessaryGemComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0524425
       messages: 
       output: 
       stacktrace: 
@@ -2023,14 +2086,14 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage4_Tests][suite]
       name: Stage4_Tests
       fullName: Stage4_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.9724621
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
-      description: The Cube is an imitation of life itself
+      description: When the Sun has set, no candle can replace it.
       isSuite: 1
       categories:
       - 4
@@ -2041,8 +2104,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_Tests/[PlayMode][Stage4_Tests.CheckCollisions]
       name: CheckCollisions
       fullName: Stage4_Tests.CheckCollisions
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7889362
       messages: 
       output: 
       stacktrace: 
@@ -2058,8 +2121,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_Tests/[PlayMode][Stage4_Tests.CorrectGemsNExit]
       name: CorrectGemsNExit
       fullName: Stage4_Tests.CorrectGemsNExit
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.010905
       messages: 
       output: 
       stacktrace: 
@@ -2075,8 +2138,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_Tests/[PlayMode][Stage4_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage4_Tests.NecessaryComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0623663
       messages: 
       output: 
       stacktrace: 
@@ -2092,8 +2155,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage4_Tests/[PlayMode][Stage4_Tests.PlatformsReachableCheck]
       name: PlatformsReachableCheck
       fullName: Stage4_Tests.PlatformsReachableCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1042582
       messages: 
       output: 
       stacktrace: 
@@ -2109,8 +2172,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_1_Tests][suite]
       name: Stage5_1_Tests
       fullName: Stage5_1_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0750147
       messages: 
       output: 
       stacktrace: 
@@ -2126,8 +2189,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_1_Tests/[PlayMode][Stage5_1_Tests.Check]
       name: Check
       fullName: Stage5_1_Tests.Check
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.06922
       messages: 
       output: 
       stacktrace: 
@@ -2143,8 +2206,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_2_Tests][suite]
       name: Stage5_2_Tests
       fullName: Stage5_2_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.7099395
       messages: 
       output: 
       stacktrace: 
@@ -2160,8 +2223,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.CameraMovementCheck]
       name: CameraMovementCheck
       fullName: Stage5_2_Tests.CameraMovementCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7725322
       messages: 
       output: 
       stacktrace: 
@@ -2177,8 +2240,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.CheckBounds]
       name: CheckBounds
       fullName: Stage5_2_Tests.CheckBounds
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0133218
       messages: 
       output: 
       stacktrace: 
@@ -2194,8 +2257,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.CorrectMovement]
       name: CorrectMovement
       fullName: Stage5_2_Tests.CorrectMovement
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1225492
       messages: 
       output: 
       stacktrace: 
@@ -2211,8 +2274,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.JumpCheck]
       name: JumpCheck
       fullName: Stage5_2_Tests.JumpCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0948711
       messages: 
       output: 
       stacktrace: 
@@ -2228,8 +2291,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.JumpInAirCheck]
       name: JumpInAirCheck
       fullName: Stage5_2_Tests.JumpInAirCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3102291
       messages: 
       output: 
       stacktrace: 
@@ -2245,8 +2308,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.LevelEndCheck]
       name: LevelEndCheck
       fullName: Stage5_2_Tests.LevelEndCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0904674
       messages: 
       output: 
       stacktrace: 
@@ -2262,8 +2325,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.MovementLeftCheck]
       name: MovementLeftCheck
       fullName: Stage5_2_Tests.MovementLeftCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0123672
       messages: 
       output: 
       stacktrace: 
@@ -2279,8 +2342,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.MovementRightCheck]
       name: MovementRightCheck
       fullName: Stage5_2_Tests.MovementRightCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0133896
       messages: 
       output: 
       stacktrace: 
@@ -2296,8 +2359,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_2_Tests/[PlayMode][Stage5_2_Tests.NotMovingWithoutInputCheck]
       name: NotMovingWithoutInputCheck
       fullName: Stage5_2_Tests.NotMovingWithoutInputCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2714121
       messages: 
       output: 
       stacktrace: 
@@ -2313,8 +2376,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_3_Tests][suite]
       name: Stage5_3_Tests
       fullName: Stage5_3_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.8105054
       messages: 
       output: 
       stacktrace: 
@@ -2330,8 +2393,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.CheckDestroying]
       name: CheckDestroying
       fullName: Stage5_3_Tests.CheckDestroying
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.010394
       messages: 
       output: 
       stacktrace: 
@@ -2347,8 +2410,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.CheckTransitions]
       name: CheckTransitions
       fullName: Stage5_3_Tests.CheckTransitions
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.6478595
       messages: 
       output: 
       stacktrace: 
@@ -2364,8 +2427,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.CheckTransitionsIdle]
       name: CheckTransitionsIdle
       fullName: Stage5_3_Tests.CheckTransitionsIdle
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0195548
       messages: 
       output: 
       stacktrace: 
@@ -2381,8 +2444,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage5_3_Tests.NecessaryComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0673176
       messages: 
       output: 
       stacktrace: 
@@ -2398,8 +2461,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_3_Tests/[PlayMode][Stage5_3_Tests.NecessaryGemComponents]
       name: NecessaryGemComponents
       fullName: Stage5_3_Tests.NecessaryGemComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0513937
       messages: 
       output: 
       stacktrace: 
@@ -2415,8 +2478,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_4_Tests][suite]
       name: Stage5_4_Tests
       fullName: Stage5_4_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.9793485
       messages: 
       output: 
       stacktrace: 
@@ -2432,8 +2495,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.CheckCollisions]
       name: CheckCollisions
       fullName: Stage5_4_Tests.CheckCollisions
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7852301
       messages: 
       output: 
       stacktrace: 
@@ -2449,8 +2512,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.CorrectGemsNExit]
       name: CorrectGemsNExit
       fullName: Stage5_4_Tests.CorrectGemsNExit
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0115989
       messages: 
       output: 
       stacktrace: 
@@ -2466,8 +2529,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.NecessaryComponents]
       name: NecessaryComponents
       fullName: Stage5_4_Tests.NecessaryComponents
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.071237
       messages: 
       output: 
       stacktrace: 
@@ -2483,8 +2546,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_4_Tests/[PlayMode][Stage5_4_Tests.PlatformsReachableCheck]
       name: PlatformsReachableCheck
       fullName: Stage5_4_Tests.PlatformsReachableCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1051109
       messages: 
       output: 
       stacktrace: 
@@ -2500,14 +2563,14 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage5_Tests][suite]
       name: Stage5_Tests
       fullName: Stage5_Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1949483
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
-      description: Platonic solid regular hexahedron
+      description: The low sun stares through dust of gold.
       isSuite: 1
       categories:
       - 5
@@ -2518,8 +2581,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_Tests/[PlayMode][Stage5_Tests.CheckScene]
       name: CheckScene
       fullName: Stage5_Tests.CheckScene
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0506507
       messages: 
       output: 
       stacktrace: 
@@ -2535,8 +2598,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_Tests/[PlayMode][Stage5_Tests.CollisionCheck]
       name: CollisionCheck
       fullName: Stage5_Tests.CollisionCheck
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1124602
       messages: 
       output: 
       stacktrace: 
@@ -2552,8 +2615,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage5_Tests/[PlayMode][Stage5_Tests.CorrectPlacementAndMovement]
       name: CorrectPlacementAndMovement
       fullName: Stage5_Tests.CorrectPlacementAndMovement
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0251684
       messages: 
       output: 
       stacktrace: 
@@ -2667,33 +2730,12 @@ MonoBehaviour:
       - 7
       parentId: 1074
       parentUniqueId: PlayMode.dll/[PlayMode][Stage7_Tests][suite]
-    m_ResultText: 'Check (0.020s)
-
-      ---
-
-      "Level 1" scene is misspelled
-      or was not added to build settings
-
-      ---
-
-      at Stage1_Tests+<Check>d__10.MoveNext
-      () [0x00067] in C:\AYUSH\Projects\Game Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage1_Tests.cs:31
-
-      at
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in
-      C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46'
-    m_ResultStacktrace: 'at Stage1_Tests+<Check>d__10.MoveNext () [0x00067] in C:\AYUSH\Projects\Game
-      Development\Sunny Mood\Packages\TestsForSunnyMood\Tests\PlayMode\Stage1_Tests.cs:31
-
-      at
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in
-      C:\AYUSH\Projects\Game Development\Sunny Mood\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+    m_ResultText: CorrectGemsNExit (0.011s)
+    m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c273288e
-      m_LastClickedID: -1909951550
+      scrollPos: {x: 0, y: 138}
+      m_SelectedIDs: e8375f98
+      m_LastClickedID: -1738590232
       m_ExpandedIDs: e67c93a55a96b5b34bbfd8b946b0d2cb64d31de4f1cf24ee692231172155ea34cf80706affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -2729,12 +2771,12 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 23}
+    m_Window: {fileID: 24}
     m_NewResultList:
-    - id: 1016
-      uniqueId: '[It''s Raining Cubes][suite]'
-      name: It's Raining Cubes
-      fullName: It's Raining Cubes
+    - id: 1234
+      uniqueId: '[SunnyMood][suite]'
+      name: SunnyMood
+      fullName: SunnyMood
       resultStatus: 0
       duration: 0
       messages: 
@@ -2753,7 +2795,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f1cf24eeffffff7f
+      m_ExpandedIDs: e67c93a5f1cf24eeffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
