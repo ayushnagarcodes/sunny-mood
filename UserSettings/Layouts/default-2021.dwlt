@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 40690
+  controlID: 108
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,12 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 247.2
+    width: 270.4
     height: 722.8
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 40638
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 247.2
+    width: 270.4
     height: 388
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -189,7 +189,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 388
-    width: 247.2
+    width: 270.4
     height: 334.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -215,14 +215,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 247.2
+    x: 270.4
     y: 0
-    width: 933.60004
+    width: 919.19995
     height: 722.8
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 40667
+  controlID: 82
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 933.60004
-    height: 436.8
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 919.19995
+    height: 532.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 16}
@@ -261,25 +261,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: CheckWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 436.8
-    width: 933.60004
-    height: 286
+    y: 532.8
+    width: 919.19995
+    height: 190
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,9 +295,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1180.8
+    x: 1189.6
     y: 0
-    width: 355.19995
+    width: 346.40002
     height: 722.8
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -307,7 +307,7 @@ MonoBehaviour:
   - {fileID: 23}
   - {fileID: 24}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,10 +328,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 247.2
+    x: 270.4
     y: 73.6
-    width: 931.60004
-    height: 415.8
+    width: 917.19995
+    height: 511.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -367,7 +367,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -378,23 +378,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 931.60004
-      height: 394.8
-    m_Scale: {x: 0.45694444, y: 0.45694444}
-    m_Translation: {x: 465.80002, y: 197.4}
+      width: 917.19995
+      height: 490.8
+    m_Scale: {x: 0.56805557, y: 0.56805557}
+    m_Translation: {x: 458.6, y: 245.39998}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1019.38
-      y: -432
-      width: 2038.76
-      height: 864
+      x: -807.31537
+      y: -431.99994
+      width: 1614.6307
+      height: 863.99994
     m_MinimalGUI: 1
-  m_defaultScale: 0.45694444
-  m_LastWindowPixelSize: {x: 1164.5, y: 519.75}
+  m_defaultScale: 0.56805557
+  m_LastWindowPixelSize: {x: 1146.5, y: 639.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
-    width: 246.2
+    y: 73.6
+    width: 269.4
     height: 367
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -433,7 +433,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7c73feffb473feffb87cfeffec7cfeff247dfeff2886feff0687feff3e87feff4290feffb291feffea91feffee9afeff249bfeff569bfeff3ca4feff4aa6feff7ca6feff62affeff90affeffc2affeff7cb8feff70bffeffa2bffeff5cc8feffd2c8feff04c9feffead1feff38e0feff7ce0feff1ce9feff8ceafeffd0eafeff70f3feffccf4feff16f5feffd4fdfeff3afffeff84fffeff4208ffff7611ffff4213ffff7a13ffff7a1bffffa21dffffda1dffffdc25ffff3e4fffff704fffff4857ffff1a58ffff4c58ffff2460ffff5260ffff8460ffff5c68ffff8a68ffffbc68ffff9670ffffc670fffff870ffffcc74fffffca2fffffefaffff405500005c55000066550000ca550000dcb90100fcb901000cba010016ba010038ba010046ba010068ba010096ba0100b2ff01004e020200b8020200c2020200f4a10200
+      m_ExpandedIDs: 0a5effff505effff805effffc05fffffae60ffffdc61fffffc62ffff3463ffff326dffff666dffff9e6dffff7077ffff3279fffffe79ffffc67affff8e7bffff9c7dffffd47dffffd287ffffdc88ffff1489ffffe692ffff1495ffff8295ffffba95ffffb89fffffe49fffff1ca0ffffeea9ffff1aaaffff52aaffff36acfffffeadffffaeaeffffeeaeffff8aafffffecafffff6cb0ffff5cb1ffff02b8ffff3ab8ffff38c2ffff6cc2ffffa4c2ffffa2ccffffdcd0ffffacd1ffff3ed2ffffd8d2ffff3ed3ffff6ed3ffff46d5fffff6d5ffff24d8ffff3cdaffff14dbffff44dbffff74dbffff36dcffffd4deffff0cdfffffbee8ffffc8e9ffff00eaffffa2f3ffff0cfbffff4e490200e64a0200acb5020042b70200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -478,8 +478,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 407
-    width: 246.2
+    y: 461.6
+    width: 269.4
     height: 313.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -497,7 +497,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -512,7 +513,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 16550000
     m_LastClickedID: 21782
-    m_ExpandedIDs: ffffffff000000002e59000030590000325900003459000036590000385900003a5900003c59000076590000a8620000106c0000
+    m_ExpandedIDs: 000000003c5900003e59000040590000425900004459000046590000485900004a5900004c590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,10 +538,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 100.20001}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000002e59000030590000325900003459000036590000385900003a5900003c590000a8620000
+    m_ExpandedIDs: ffffffff000000003c5900003e59000040590000425900004459000046590000485900004a5900004c59000088590000e46e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,10 +617,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 220
+    x: 270.4
     y: 73.6
-    width: 951.6
-    height: 503.8
+    width: 917.19995
+    height: 511.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1074,10 +1075,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 220
-    y: 510.4
-    width: 951.6
-    height: 265
+    x: 270.4
+    y: 606.4
+    width: 917.19995
+    height: 169
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1140,7 +1141,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 113296
+  m_LastSelectedObjectID: 61382
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1161,10 +1162,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 455.8
-    width: 931.60004
-    height: 265
+    x: 270.4
+    y: 606.4
+    width: 917.19995
+    height: 169
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1323,9 +1324,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1180.8
+    x: 1189.6
     y: 73.6
-    width: 354.19995
+    width: 345.40002
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1364,9 +1365,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1166.4
+    x: 1189.6
     y: 73.6
-    width: 368.59998
+    width: 345.40002
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1399,16 +1400,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1180.8
+    x: 1189.6
     y: 73.6
-    width: 354.19995
+    width: 345.40002
     height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 42102
+    ID: 3583
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -1440,7 +1441,7 @@ MonoBehaviour:
       name: SunnyMood
       fullName: SunnyMood
       resultStatus: 2
-      duration: 13.635744
+      duration: 14.340984
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1456,7 +1457,7 @@ MonoBehaviour:
       name: PlayMode.dll
       fullName: C:/AYUSH/Projects/Game Development/Sunny Mood/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 2
-      duration: 13.509757
+      duration: 14.230027
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1472,7 +1473,7 @@ MonoBehaviour:
       name: Stage1_Tests
       fullName: Stage1_Tests
       resultStatus: 1
-      duration: 0.1544031
+      duration: 0.4576113
       messages: 
       output: 
       stacktrace: 
@@ -1490,7 +1491,7 @@ MonoBehaviour:
       name: Check
       fullName: Stage1_Tests.Check
       resultStatus: 1
-      duration: 0.1184173
+      duration: 0.4429375
       messages: 
       output: 
       stacktrace: 
@@ -1507,7 +1508,7 @@ MonoBehaviour:
       name: Stage2_Tests
       fullName: Stage2_Tests
       resultStatus: 1
-      duration: 2.6731408
+      duration: 2.694369
       messages: 
       output: 
       stacktrace: 
@@ -1525,7 +1526,7 @@ MonoBehaviour:
       name: CameraMovementCheck
       fullName: Stage2_Tests.CameraMovementCheck
       resultStatus: 1
-      duration: 0.7858515
+      duration: 0.7841356
       messages: 
       output: 
       stacktrace: 
@@ -1542,7 +1543,7 @@ MonoBehaviour:
       name: CheckBounds
       fullName: Stage2_Tests.CheckBounds
       resultStatus: 1
-      duration: 0.0130602
+      duration: 0.0126516
       messages: 
       output: 
       stacktrace: 
@@ -1559,7 +1560,7 @@ MonoBehaviour:
       name: CorrectMovement
       fullName: Stage2_Tests.CorrectMovement
       resultStatus: 1
-      duration: 0.1208924
+      duration: 0.1230184
       messages: 
       output: 
       stacktrace: 
@@ -1576,7 +1577,7 @@ MonoBehaviour:
       name: JumpCheck
       fullName: Stage2_Tests.JumpCheck
       resultStatus: 1
-      duration: 0.0884992
+      duration: 0.0886607
       messages: 
       output: 
       stacktrace: 
@@ -1593,7 +1594,7 @@ MonoBehaviour:
       name: JumpInAirCheck
       fullName: Stage2_Tests.JumpInAirCheck
       resultStatus: 1
-      duration: 1.2597204
+      duration: 1.2707473
       messages: 
       output: 
       stacktrace: 
@@ -1610,7 +1611,7 @@ MonoBehaviour:
       name: LevelEndCheck
       fullName: Stage2_Tests.LevelEndCheck
       resultStatus: 1
-      duration: 0.0687056
+      duration: 0.069707
       messages: 
       output: 
       stacktrace: 
@@ -1627,7 +1628,7 @@ MonoBehaviour:
       name: MovementLeftCheck
       fullName: Stage2_Tests.MovementLeftCheck
       resultStatus: 1
-      duration: 0.021713
+      duration: 0.0283495
       messages: 
       output: 
       stacktrace: 
@@ -1644,7 +1645,7 @@ MonoBehaviour:
       name: MovementRightCheck
       fullName: Stage2_Tests.MovementRightCheck
       resultStatus: 1
-      duration: 0.0140328
+      duration: 0.0157498
       messages: 
       output: 
       stacktrace: 
@@ -1661,7 +1662,7 @@ MonoBehaviour:
       name: NotMovingWithoutInputCheck
       fullName: Stage2_Tests.NotMovingWithoutInputCheck
       resultStatus: 1
-      duration: 0.2868357
+      duration: 0.2894904
       messages: 
       output: 
       stacktrace: 
@@ -1678,7 +1679,7 @@ MonoBehaviour:
       name: Stage3_Tests
       fullName: Stage3_Tests
       resultStatus: 1
-      duration: 0.4231918
+      duration: 0.4184833
       messages: 
       output: 
       stacktrace: 
@@ -1696,7 +1697,7 @@ MonoBehaviour:
       name: CheckDestroying
       fullName: Stage3_Tests.CheckDestroying
       resultStatus: 1
-      duration: 0.0081387
+      duration: 0.0077501
       messages: 
       output: 
       stacktrace: 
@@ -1713,7 +1714,7 @@ MonoBehaviour:
       name: CheckTransitions
       fullName: Stage3_Tests.CheckTransitions
       resultStatus: 1
-      duration: 0.2971972
+      duration: 0.2986661
       messages: 
       output: 
       stacktrace: 
@@ -1730,7 +1731,7 @@ MonoBehaviour:
       name: CheckTransitionsIdle
       fullName: Stage3_Tests.CheckTransitionsIdle
       resultStatus: 1
-      duration: 0.0201597
+      duration: 0.016449
       messages: 
       output: 
       stacktrace: 
@@ -1747,7 +1748,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage3_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.0433465
+      duration: 0.0426329
       messages: 
       output: 
       stacktrace: 
@@ -1764,7 +1765,7 @@ MonoBehaviour:
       name: NecessaryGemComponents
       fullName: Stage3_Tests.NecessaryGemComponents
       resultStatus: 1
-      duration: 0.0422192
+      duration: 0.0407821
       messages: 
       output: 
       stacktrace: 
@@ -1781,7 +1782,7 @@ MonoBehaviour:
       name: Stage4_1_Tests
       fullName: Stage4_1_Tests
       resultStatus: 1
-      duration: 0.0630721
+      duration: 0.0650541
       messages: 
       output: 
       stacktrace: 
@@ -1798,7 +1799,7 @@ MonoBehaviour:
       name: Check
       fullName: Stage4_1_Tests.Check
       resultStatus: 1
-      duration: 0.0600647
+      duration: 0.0622655
       messages: 
       output: 
       stacktrace: 
@@ -1815,7 +1816,7 @@ MonoBehaviour:
       name: Stage4_2_Tests
       fullName: Stage4_2_Tests
       resultStatus: 1
-      duration: 2.6572058
+      duration: 2.6587362
       messages: 
       output: 
       stacktrace: 
@@ -1832,7 +1833,7 @@ MonoBehaviour:
       name: CameraMovementCheck
       fullName: Stage4_2_Tests.CameraMovementCheck
       resultStatus: 1
-      duration: 0.7674988
+      duration: 0.7671714
       messages: 
       output: 
       stacktrace: 
@@ -1849,7 +1850,7 @@ MonoBehaviour:
       name: CheckBounds
       fullName: Stage4_2_Tests.CheckBounds
       resultStatus: 1
-      duration: 0.0115956
+      duration: 0.0105992
       messages: 
       output: 
       stacktrace: 
@@ -1866,7 +1867,7 @@ MonoBehaviour:
       name: CorrectMovement
       fullName: Stage4_2_Tests.CorrectMovement
       resultStatus: 1
-      duration: 0.1199473
+      duration: 0.1185025
       messages: 
       output: 
       stacktrace: 
@@ -1883,7 +1884,7 @@ MonoBehaviour:
       name: JumpCheck
       fullName: Stage4_2_Tests.JumpCheck
       resultStatus: 1
-      duration: 0.0916237
+      duration: 0.0921063
       messages: 
       output: 
       stacktrace: 
@@ -1900,7 +1901,7 @@ MonoBehaviour:
       name: JumpInAirCheck
       fullName: Stage4_2_Tests.JumpInAirCheck
       resultStatus: 1
-      duration: 1.3097326
+      duration: 1.3094822
       messages: 
       output: 
       stacktrace: 
@@ -1917,7 +1918,7 @@ MonoBehaviour:
       name: LevelEndCheck
       fullName: Stage4_2_Tests.LevelEndCheck
       resultStatus: 1
-      duration: 0.0679666
+      duration: 0.0689961
       messages: 
       output: 
       stacktrace: 
@@ -1934,7 +1935,7 @@ MonoBehaviour:
       name: MovementLeftCheck
       fullName: Stage4_2_Tests.MovementLeftCheck
       resultStatus: 1
-      duration: 0.0089862
+      duration: 0.0088593
       messages: 
       output: 
       stacktrace: 
@@ -1951,7 +1952,7 @@ MonoBehaviour:
       name: MovementRightCheck
       fullName: Stage4_2_Tests.MovementRightCheck
       resultStatus: 1
-      duration: 0.0115075
+      duration: 0.0121248
       messages: 
       output: 
       stacktrace: 
@@ -1968,7 +1969,7 @@ MonoBehaviour:
       name: NotMovingWithoutInputCheck
       fullName: Stage4_2_Tests.NotMovingWithoutInputCheck
       resultStatus: 1
-      duration: 0.2631056
+      duration: 0.2640361
       messages: 
       output: 
       stacktrace: 
@@ -1985,7 +1986,7 @@ MonoBehaviour:
       name: Stage4_3_Tests
       fullName: Stage4_3_Tests
       resultStatus: 1
-      duration: 0.7965159
+      duration: 0.8700629
       messages: 
       output: 
       stacktrace: 
@@ -2002,7 +2003,7 @@ MonoBehaviour:
       name: CheckDestroying
       fullName: Stage4_3_Tests.CheckDestroying
       resultStatus: 1
-      duration: 0.0083516
+      duration: 0.008184
       messages: 
       output: 
       stacktrace: 
@@ -2019,7 +2020,7 @@ MonoBehaviour:
       name: CheckTransitions
       fullName: Stage4_3_Tests.CheckTransitions
       resultStatus: 1
-      duration: 0.6469708
+      duration: 0.7239616
       messages: 
       output: 
       stacktrace: 
@@ -2036,7 +2037,7 @@ MonoBehaviour:
       name: CheckTransitionsIdle
       fullName: Stage4_3_Tests.CheckTransitionsIdle
       resultStatus: 1
-      duration: 0.0208548
+      duration: 0.0204611
       messages: 
       output: 
       stacktrace: 
@@ -2053,7 +2054,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage4_3_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.0610301
+      duration: 0.0586821
       messages: 
       output: 
       stacktrace: 
@@ -2070,7 +2071,7 @@ MonoBehaviour:
       name: NecessaryGemComponents
       fullName: Stage4_3_Tests.NecessaryGemComponents
       resultStatus: 1
-      duration: 0.0465148
+      duration: 0.0456717
       messages: 
       output: 
       stacktrace: 
@@ -2087,7 +2088,7 @@ MonoBehaviour:
       name: Stage4_Tests
       fullName: Stage4_Tests
       resultStatus: 1
-      duration: 0.9497294
+      duration: 0.9510886
       messages: 
       output: 
       stacktrace: 
@@ -2105,7 +2106,7 @@ MonoBehaviour:
       name: CheckCollisions
       fullName: Stage4_Tests.CheckCollisions
       resultStatus: 1
-      duration: 0.7781695
+      duration: 0.7805353
       messages: 
       output: 
       stacktrace: 
@@ -2122,7 +2123,7 @@ MonoBehaviour:
       name: CorrectGemsNExit
       fullName: Stage4_Tests.CorrectGemsNExit
       resultStatus: 1
-      duration: 0.0083251
+      duration: 0.0083494
       messages: 
       output: 
       stacktrace: 
@@ -2139,7 +2140,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage4_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.0583179
+      duration: 0.0584394
       messages: 
       output: 
       stacktrace: 
@@ -2156,7 +2157,7 @@ MonoBehaviour:
       name: PlatformsReachableCheck
       fullName: Stage4_Tests.PlatformsReachableCheck
       resultStatus: 1
-      duration: 0.1013643
+      duration: 0.100197
       messages: 
       output: 
       stacktrace: 
@@ -2173,7 +2174,7 @@ MonoBehaviour:
       name: Stage5_1_Tests
       fullName: Stage5_1_Tests
       resultStatus: 1
-      duration: 0.0649476
+      duration: 0.062175
       messages: 
       output: 
       stacktrace: 
@@ -2190,7 +2191,7 @@ MonoBehaviour:
       name: Check
       fullName: Stage5_1_Tests.Check
       resultStatus: 1
-      duration: 0.0620198
+      duration: 0.0593037
       messages: 
       output: 
       stacktrace: 
@@ -2207,7 +2208,7 @@ MonoBehaviour:
       name: Stage5_2_Tests
       fullName: Stage5_2_Tests
       resultStatus: 1
-      duration: 2.65691
+      duration: 2.6636322
       messages: 
       output: 
       stacktrace: 
@@ -2224,7 +2225,7 @@ MonoBehaviour:
       name: CameraMovementCheck
       fullName: Stage5_2_Tests.CameraMovementCheck
       resultStatus: 1
-      duration: 0.7717349
+      duration: 0.7724672
       messages: 
       output: 
       stacktrace: 
@@ -2241,7 +2242,7 @@ MonoBehaviour:
       name: CheckBounds
       fullName: Stage5_2_Tests.CheckBounds
       resultStatus: 1
-      duration: 0.0104061
+      duration: 0.0108308
       messages: 
       output: 
       stacktrace: 
@@ -2258,7 +2259,7 @@ MonoBehaviour:
       name: CorrectMovement
       fullName: Stage5_2_Tests.CorrectMovement
       resultStatus: 1
-      duration: 0.120088
+      duration: 0.1202814
       messages: 
       output: 
       stacktrace: 
@@ -2275,7 +2276,7 @@ MonoBehaviour:
       name: JumpCheck
       fullName: Stage5_2_Tests.JumpCheck
       resultStatus: 1
-      duration: 0.0898754
+      duration: 0.0924173
       messages: 
       output: 
       stacktrace: 
@@ -2292,7 +2293,7 @@ MonoBehaviour:
       name: JumpInAirCheck
       fullName: Stage5_2_Tests.JumpInAirCheck
       resultStatus: 1
-      duration: 1.2965713
+      duration: 1.3008721
       messages: 
       output: 
       stacktrace: 
@@ -2309,7 +2310,7 @@ MonoBehaviour:
       name: LevelEndCheck
       fullName: Stage5_2_Tests.LevelEndCheck
       resultStatus: 1
-      duration: 0.0718144
+      duration: 0.0697896
       messages: 
       output: 
       stacktrace: 
@@ -2326,7 +2327,7 @@ MonoBehaviour:
       name: MovementLeftCheck
       fullName: Stage5_2_Tests.MovementLeftCheck
       resultStatus: 1
-      duration: 0.0094996
+      duration: 0.0088256
       messages: 
       output: 
       stacktrace: 
@@ -2343,7 +2344,7 @@ MonoBehaviour:
       name: MovementRightCheck
       fullName: Stage5_2_Tests.MovementRightCheck
       resultStatus: 1
-      duration: 0.0113996
+      duration: 0.0115169
       messages: 
       output: 
       stacktrace: 
@@ -2360,7 +2361,7 @@ MonoBehaviour:
       name: NotMovingWithoutInputCheck
       fullName: Stage5_2_Tests.NotMovingWithoutInputCheck
       resultStatus: 1
-      duration: 0.2705206
+      duration: 0.2718751
       messages: 
       output: 
       stacktrace: 
@@ -2377,7 +2378,7 @@ MonoBehaviour:
       name: Stage5_3_Tests
       fullName: Stage5_3_Tests
       resultStatus: 1
-      duration: 0.8705033
+      duration: 0.8048029
       messages: 
       output: 
       stacktrace: 
@@ -2394,7 +2395,7 @@ MonoBehaviour:
       name: CheckDestroying
       fullName: Stage5_3_Tests.CheckDestroying
       resultStatus: 1
-      duration: 0.0085536
+      duration: 0.0083403
       messages: 
       output: 
       stacktrace: 
@@ -2411,7 +2412,7 @@ MonoBehaviour:
       name: CheckTransitions
       fullName: Stage5_3_Tests.CheckTransitions
       resultStatus: 1
-      duration: 0.7184015
+      duration: 0.6472177
       messages: 
       output: 
       stacktrace: 
@@ -2428,7 +2429,7 @@ MonoBehaviour:
       name: CheckTransitionsIdle
       fullName: Stage5_3_Tests.CheckTransitionsIdle
       resultStatus: 1
-      duration: 0.0173281
+      duration: 0.0212301
       messages: 
       output: 
       stacktrace: 
@@ -2445,7 +2446,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage5_3_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.0657664
+      duration: 0.0688817
       messages: 
       output: 
       stacktrace: 
@@ -2462,7 +2463,7 @@ MonoBehaviour:
       name: NecessaryGemComponents
       fullName: Stage5_3_Tests.NecessaryGemComponents
       resultStatus: 1
-      duration: 0.0476614
+      duration: 0.0456221
       messages: 
       output: 
       stacktrace: 
@@ -2479,7 +2480,7 @@ MonoBehaviour:
       name: Stage5_4_Tests
       fullName: Stage5_4_Tests
       resultStatus: 1
-      duration: 0.9735572
+      duration: 0.9731598
       messages: 
       output: 
       stacktrace: 
@@ -2496,7 +2497,7 @@ MonoBehaviour:
       name: CheckCollisions
       fullName: Stage5_4_Tests.CheckCollisions
       resultStatus: 1
-      duration: 0.7985269
+      duration: 0.7978162
       messages: 
       output: 
       stacktrace: 
@@ -2513,7 +2514,7 @@ MonoBehaviour:
       name: CorrectGemsNExit
       fullName: Stage5_4_Tests.CorrectGemsNExit
       resultStatus: 1
-      duration: 0.0103684
+      duration: 0.0086139
       messages: 
       output: 
       stacktrace: 
@@ -2530,7 +2531,7 @@ MonoBehaviour:
       name: NecessaryComponents
       fullName: Stage5_4_Tests.NecessaryComponents
       resultStatus: 1
-      duration: 0.06355
+      duration: 0.0620258
       messages: 
       output: 
       stacktrace: 
@@ -2547,7 +2548,7 @@ MonoBehaviour:
       name: PlatformsReachableCheck
       fullName: Stage5_4_Tests.PlatformsReachableCheck
       resultStatus: 1
-      duration: 0.097463
+      duration: 0.1008321
       messages: 
       output: 
       stacktrace: 
@@ -2564,7 +2565,7 @@ MonoBehaviour:
       name: Stage5_Tests
       fullName: Stage5_Tests
       resultStatus: 1
-      duration: 0.180598
+      duration: 0.1812774
       messages: 
       output: 
       stacktrace: 
@@ -2582,7 +2583,7 @@ MonoBehaviour:
       name: CheckScene
       fullName: Stage5_Tests.CheckScene
       resultStatus: 1
-      duration: 0.0462682
+      duration: 0.046141
       messages: 
       output: 
       stacktrace: 
@@ -2599,7 +2600,7 @@ MonoBehaviour:
       name: CollisionCheck
       fullName: Stage5_Tests.CollisionCheck
       resultStatus: 1
-      duration: 0.1033478
+      duration: 0.1041152
       messages: 
       output: 
       stacktrace: 
@@ -2616,7 +2617,7 @@ MonoBehaviour:
       name: CorrectPlacementAndMovement
       fullName: Stage5_Tests.CorrectPlacementAndMovement
       resultStatus: 1
-      duration: 0.0260417
+      duration: 0.0277977
       messages: 
       output: 
       stacktrace: 
@@ -2632,9 +2633,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage6_Tests][suite]
       name: Stage6_Tests
       fullName: Stage6_Tests
-      resultStatus: 2
-      duration: 1.0351926
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 1.294863
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2650,7 +2651,7 @@ MonoBehaviour:
       name: ChooseLevelNecessary
       fullName: Stage6_Tests.ChooseLevelNecessary
       resultStatus: 1
-      duration: 0.0912332
+      duration: 0.0910193
       messages: 
       output: 
       stacktrace: 
@@ -2666,18 +2667,11 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage6_Tests/[PlayMode][Stage6_Tests.PlayTest]
       name: PlayTest
       fullName: Stage6_Tests.PlayTest
-      resultStatus: 2
-      duration: 0.7037616
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+      resultStatus: 1
+      duration: 1.0563588
+      messages: 
       output: 
-      stacktrace: "  at LevelMenu.StartLevel () [0x00000] in C:\\AYUSH\\Projects\\Game
-        Development\\Sunny Mood\\Assets\\Scripts\\LevelMenu.cs:31 \r\n  at UnityEngine.Events.InvokableCall.Invoke
-        () [0x00010] in <4746c126b0b54f3b834845974d1a9190>:0 \r\n  at UnityEngine.Events.UnityEvent.Invoke
-        () [0x00022] in <4746c126b0b54f3b834845974d1a9190>:0 \r\n  at Stage6_Tests+<PlayTest>d__18.MoveNext
-        () [0x00625] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage6_Tests.cs:282
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2691,7 +2685,7 @@ MonoBehaviour:
       name: SetUp
       fullName: Stage6_Tests.SetUp
       resultStatus: 1
-      duration: 0.2272898
+      duration: 0.1353353
       messages: 
       output: 
       stacktrace: 
@@ -2707,9 +2701,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Stage7_Tests][suite]
       name: Stage7_Tests
       fullName: Stage7_Tests
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.1240509
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -2724,11 +2718,19 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Stage7_Tests/[PlayMode][Stage7_Tests.InGameSoundCheck]
       name: InGameSoundCheck
       fullName: Stage7_Tests.InGameSoundCheck
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.1210906
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
       output: 
-      stacktrace: 
+      stacktrace: "  at PMHelper.AudioSourcePlaying (System.String name) [0x0000e]
+        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.hyperskill.hs-test-unity@f061abb04c\\Runtime\\PMHelper.cs:222
+        \r\n  at Stage7_Tests+<>c__DisplayClass6_0.<InGameSoundCheck>b__5 () [0x00000]
+        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage7_Tests.cs:76
+        \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
+        \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2737,27 +2739,29 @@ MonoBehaviour:
       - 7
       parentId: 1074
       parentUniqueId: PlayMode.dll/[PlayMode][Stage7_Tests][suite]
-    m_ResultText: "PlayTest (0.704s)\n---\nSystem.NullReferenceException : Object
-      reference not set to an instance of an object\n---\nat LevelMenu.StartLevel
-      () [0x00000] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Assets\\Scripts\\LevelMenu.cs:31
-      \r\n  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <4746c126b0b54f3b834845974d1a9190>:0
-      \r\n  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <4746c126b0b54f3b834845974d1a9190>:0
-      \r\n  at Stage6_Tests+<PlayTest>d__18.MoveNext () [0x00625] in C:\\AYUSH\\Projects\\Game
-      Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage6_Tests.cs:282
+    m_ResultText: "InGameSoundCheck (0.121s)\n---\nSystem.NullReferenceException
+      : Object reference not set to an instance of an object\n---\nat PMHelper.AudioSourcePlaying
+      (System.String name) [0x0000e] in C:\\AYUSH\\Projects\\Game Development\\Sunny
+      Mood\\Library\\PackageCache\\com.hyperskill.hs-test-unity@f061abb04c\\Runtime\\PMHelper.cs:222
+      \r\n  at Stage7_Tests+<>c__DisplayClass6_0.<InGameSoundCheck>b__5 () [0x00000]
+      in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage7_Tests.cs:76
+      \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
+      \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
       \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
       in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46"
-    m_ResultStacktrace: "  at LevelMenu.StartLevel () [0x00000] in C:\\AYUSH\\Projects\\Game
-      Development\\Sunny Mood\\Assets\\Scripts\\LevelMenu.cs:31 \r\n  at UnityEngine.Events.InvokableCall.Invoke
-      () [0x00010] in <4746c126b0b54f3b834845974d1a9190>:0 \r\n  at UnityEngine.Events.UnityEvent.Invoke
-      () [0x00022] in <4746c126b0b54f3b834845974d1a9190>:0 \r\n  at Stage6_Tests+<PlayTest>d__18.MoveNext
-      () [0x00625] in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage6_Tests.cs:282
+    m_ResultStacktrace: "  at PMHelper.AudioSourcePlaying (System.String name) [0x0000e]
+      in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.hyperskill.hs-test-unity@f061abb04c\\Runtime\\PMHelper.cs:222
+      \r\n  at Stage7_Tests+<>c__DisplayClass6_0.<InGameSoundCheck>b__5 () [0x00000]
+      in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Packages\\TestsForSunnyMood\\Tests\\PlayMode\\Stage7_Tests.cs:76
+      \r\n  at UnityEngine.WaitUntil.get_keepWaiting () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
+      \r\n  at UnityEngine.CustomYieldInstruction.MoveNext () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
       \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
       in C:\\AYUSH\\Projects\\Game Development\\Sunny Mood\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
     m_TestListState:
-      scrollPos: {x: 0, y: 186}
-      m_SelectedIDs: be6b278b
-      m_LastClickedID: -1960350786
-      m_ExpandedIDs: e67c93a55a96b5b34bbfd8b946b0d2cb64d31de4f1cf24ee69223117553c4e2f2155ea34cf80706affffff7f
+      scrollPos: {x: 0, y: 202}
+      m_SelectedIDs: 48528925
+      m_LastClickedID: 629756488
+      m_ExpandedIDs: e67c93a55a96b5b34bbfd8b946b0d2cb64d31de4f1cf24ee50ed3afc69223117553c4e2f2155ea34cf80706affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
