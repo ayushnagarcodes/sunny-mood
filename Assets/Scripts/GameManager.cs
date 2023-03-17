@@ -5,7 +5,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{ 
+{
+    private AudioSource audioSource;
+    
     private void Start()
     {
         if (!PlayerPrefs.HasKey("CurrentLevel"))
@@ -17,6 +19,9 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("LevelCompleted", 0);
         }
+
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
     }
 
     private void Update()
