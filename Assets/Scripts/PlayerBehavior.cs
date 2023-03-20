@@ -16,16 +16,14 @@ public class PlayerBehavior : MonoBehaviour
     private bool canJump = false;
     private bool facingRight = true;
 
-    private AudioSource audioSource;
-    [SerializeField] private AudioClip jumpSound;
-    [SerializeField] private AudioClip gemSound;
+    private AudioSource[] audioSources;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();
+        audioSources = GetComponents<AudioSource>();
     }
 
     void Update()
@@ -65,10 +63,9 @@ public class PlayerBehavior : MonoBehaviour
         {
             if (canJump)
             {
-                audioSource.clip = jumpSound;
-                audioSource.Play();
+                audioSources[0].Play();
                 // Adding additional force on x-axis if player is moving and then jump key is pressed
-                rb.AddForce(new Vector2(2000f * inputHorizontal, 2000f), ForceMode2D.Force);
+                rb.AddForce(new Vector2(1800f * inputHorizontal, 1500f), ForceMode2D.Force);
                 animator.SetBool("JumpAnimate", true);
             }
         }
@@ -95,8 +92,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Gem"))
         {
-            audioSource.clip = gemSound;
-            audioSource.Play();
+            audioSources[1].Play();
             Destroy(col.gameObject);
         }
 
