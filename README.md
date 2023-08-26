@@ -2,8 +2,8 @@
 - It's a 2D game developed in Unity engine. Pass levels by collecting gems and avoiding enemies.
 - Graphics in the game are pixelated.
 - You can play the game:
-  - In browser (click [here](https://ayushnagarcodes.github.io/Sunny-Mood/))
-  - By installing the executable (only available for windows 64-bit) (click [here](https://github.com/ayushnagarcodes/Sunny-Mood/raw/main/Sunny%20Mood%20Setup%20(x64).exe) or download the .exe from above)
+  - In browser (click [here](https://ayushnagarcodes.github.io/sunny-mood/))
+  - By installing the executable (only available for windows 64-bit) (click [here](https://github.com/ayushnagarcodes/sunny-mood/raw/main/Sunny%20Mood%20Setup%20(x64).exe) or download the .exe from above)
 - Controls:
   - 'A' and 'D' or &#8592; and &#8594; arrow keys to move left and right
   - 'Space' to jump
